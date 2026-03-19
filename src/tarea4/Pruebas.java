@@ -61,8 +61,8 @@ public class Pruebas {
         return Math.sqrt(alCuadrado(cateto1) + alCuadrado(cateto2));
     }
 
-    public static double catetoA(double hipotenusa, double catetoB) {
-        return Math.sqrt(alCuadrado(hipotenusa) - alCuadrado(catetoB));
+    public static double catetoA(double hipotenusa, double cateto) {
+        return Math.sqrt(alCuadrado(hipotenusa) - alCuadrado(cateto));
     }
 
     public static double mphAKmh(double mph) {
